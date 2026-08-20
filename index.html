@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0F1115">
+<title>Diego Venancio — Desenvolvedor Freelancer</title>
+<meta name="description" content="Diego Venancio, desenvolvedor freelancer: sites institucionais e sistemas de gestão sob medida para pequenas empresas.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#top" class="logo">diego<span class="logo-at">@</span>venancio<span class="logo-prompt">:~$</span></a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="primary-nav" id="primaryNav">
+      <a href="#sobre">Sobre</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-kicker">Diego Venancio</p>
+        <h1>Transformo processos manuais em sistemas que rodam sozinhos.</h1>
+        <p class="hero-role">Desenvolvedor freelancer — sites institucionais e sistemas de gestão para pequenas empresas.</p>
+        <div class="hero-actions">
+          <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+          <a href="mailto:diegovenancio16@gmail.com?subject=Contato%20via%20portf%C3%B3lio" class="btn btn-secondary">Fale comigo</a>
+        </div>
+      </div>
+
+      <div class="terminal" aria-hidden="true">
+        <div class="terminal-titlebar">
+          <span class="dot dot-red"></span>
+          <span class="dot dot-yellow"></span>
+          <span class="dot dot-green"></span>
+          <span class="terminal-title">diego@portfolio: ~</span>
+        </div>
+        <pre class="terminal-body"><code id="terminalCode"></code><span class="terminal-cursor" id="terminalCursor">&#9608;</span></pre>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="sobre">
+    <div class="section-inner">
+      <p class="eyebrow">// sobre</p>
+      <h2>Quem constrói o que você precisa</h2>
+      <p class="lead">
+        Sou desenvolvedor freelancer e construo soluções sob medida com código — sem templates genéricos,
+        sem funcionalidades que você não vai usar. Trabalho com pequenas empresas que precisam de um site
+        profissional, um sistema de gestão real ou uma automação que economize horas de trabalho manual
+        toda semana. Do primeiro protótipo ao deploy, cuido de tudo: front-end, back-end e banco de dados.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="habilidades">
+    <div class="section-inner">
+      <p class="eyebrow">// stack</p>
+      <h2>Habilidades</h2>
+      <ul class="chip-list">
+        <li class="chip"><span class="chip-dot"></span>HTML/CSS/JS</li>
+        <li class="chip"><span class="chip-dot"></span>Python</li>
+        <li class="chip"><span class="chip-dot"></span>FastAPI</li>
+        <li class="chip"><span class="chip-dot"></span>SQL</li>
+        <li class="chip"><span class="chip-dot"></span>Git/GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="projetos">
+    <div class="section-inner">
+      <p class="eyebrow">// projetos</p>
+      <h2>Projetos recentes</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <p class="project-index">01</p>
+          <h3>Marcenaria Vaz — Site institucional</h3>
+          <p>Site institucional completo para uma marcenaria fictícia, com identidade visual própria e
+            seções de portfólio, serviços e contato.</p>
+          <div class="project-links">
+            <a href="https://diegovenancio16.github.io/marcenaria-vaz-site/" target="_blank" rel="noopener noreferrer" class="project-link">Ver ao vivo <span class="arrow">&#8599;</span></a>
+            <a href="https://github.com/diegovenancio16/marcenaria-vaz-site" target="_blank" rel="noopener noreferrer" class="project-link project-link-muted">Código <span class="arrow">&#8599;</span></a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <p class="project-index">02</p>
+          <h3>Marcenaria Vaz — Sistema de Gestão</h3>
+          <p>Mini-ERP com clientes, pedidos, estoque, financeiro e login — construído com FastAPI, SQLite
+            e autenticação por sessão.</p>
+          <div class="project-links">
+            <a href="https://github.com/diegovenancio16/marcenaria-vaz-sistema" target="_blank" rel="noopener noreferrer" class="project-link project-link-muted">Código <span class="arrow">&#8599;</span></a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <p class="project-index">03</p>
+          <h3>Automação de Relatório Semanal</h3>
+          <p>Script que gera e envia por e-mail um resumo semanal do negócio automaticamente, sem
+            intervenção manual.</p>
+          <div class="project-links">
+            <!-- TODO: adicionar link do repositório quando disponível -->
+            <span class="project-link-pending">Link do repositório em breve</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contato">
+    <div class="section-inner">
+      <p class="eyebrow">// contato</p>
+      <h2>Vamos conversar</h2>
+      <p class="lead">Tem um projeto em mente? Me manda uma mensagem.</p>
+
+      <ul class="contact-list">
+        <li>
+          <span class="contact-label">Email</span>
+          <a href="mailto:diegovenancio16@gmail.com" class="contact-link">diegovenancio16@gmail.com</a>
+        </li>
+        <li>
+          <span class="contact-label">GitHub</span>
+          <a href="https://github.com/diegovenancio16" target="_blank" rel="noopener noreferrer" class="contact-link">github.com/diegovenancio16</a>
+        </li>
+        <li>
+          <span class="contact-label">LinkedIn</span>
+          <!-- TODO: substituir href="#" pelo link real do LinkedIn -->
+          <a href="#" class="contact-link contact-link-pending">adicionar link do LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Diego Venancio. <span class="footer-comment">// construído com HTML, CSS e JS puros.</span></p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
