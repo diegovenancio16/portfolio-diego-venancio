@@ -493,16 +493,6 @@ p {
   border-color: var(--amber);
 }
 
-.contact-link-pending {
-  color: var(--text-muted);
-  font-style: italic;
-}
-
-.contact-link-pending:hover {
-  color: var(--cyan);
-  border-color: var(--cyan);
-}
-
 /* ---------- footer ---------- */
 .site-footer {
   padding: 32px 24px;
